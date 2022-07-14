@@ -1,0 +1,120 @@
+body {
+    font-size: 1.6rem;
+    background: var(--Very-pale-blue);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+main {
+    background-color: #fff;
+    max-width: 416px;
+    border-radius: 1rem;
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+    /*Para ocupar todo o espaço disponivel no main*/
+    height: 100%;
+    width: 100%;
+}
+
+main section h1 {
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: var(--Dark-blue);
+    font-weight: 900;
+}
+
+main section .description{
+    line-height: 2.5rem;
+    padding: 1.2rem;
+    text-align: center;
+    color: var(--Desaturated-blue);
+}
+
+main img{
+    width: 100%; /*da largura do pai MAIN = 416px*/
+    border-radius: 1rem 1rem 0 0;
+}
+
+main .informations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--Very-pale-blue);
+    border-radius: 1rem;
+    padding: 1.5rem 1rem;
+    margin: 2rem 0;
+}
+
+main .informations .music-price{
+    display: flex;
+    align-items: center;
+    height: 6rem;
+}
+
+main .informations img {
+    width: 48px;
+    margin: 0 1rem;
+}
+
+main .informations .price{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+main .informations .price strong{
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+main .informations .price span{
+    color: var(--Desaturated-blue);
+}
+
+main .informations a{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--Bright-blue);
+    margin-right: 1rem;
+}
+main .informations a:hover{
+    color: hsla(245, 75%, 52%, 0.678);
+    cursor: pointer;
+}
+
+main section button{
+    color: #fff;
+    background-color: var(--Bright-blue);
+    border-style: none;
+    width: 100%;
+    height: 5rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    box-shadow: 1px 20px 15px hsla(245, 75%, 52%, 0.13);
+}
+
+main section button:hover{
+    background-color: hsla(245, 75%, 52%, 0.678);
+    cursor: pointer;
+}
+
+main section a#cancel-order{
+    margin-bottom: 5rem;
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+    font-weight: 700;
+}
